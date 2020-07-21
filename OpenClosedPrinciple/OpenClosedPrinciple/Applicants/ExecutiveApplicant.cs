@@ -4,11 +4,15 @@ using System.Text;
 
 namespace OpenClosedPrinciple
 {
-    public class Applicant
+    public class ExecutiveApplicant : IApplicant
     {
+        public ExecutiveApplicant()
+        {
+            AccountsProcessor = new ExecutiveAccountsProcessor(this);
+        }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-
+        public IAccountsProcessor AccountsProcessor { get; set; }
     }
 }
