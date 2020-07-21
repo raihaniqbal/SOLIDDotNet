@@ -17,7 +17,7 @@ namespace OpenClosedPrinciple
             };
 
             /*
-             * This piece of code has broken the Single Responsibility Principle
+             * This piece of code has broken the Open Closed Principle
              * since we have introduced new code that could potentially introduce
              * bugs in the existing code
              */
