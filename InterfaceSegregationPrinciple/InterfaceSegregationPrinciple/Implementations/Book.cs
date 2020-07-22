@@ -5,7 +5,7 @@ using System.Text;
 
 namespace InterfaceSegregationPrinciple.Implementations
 {
-    public class Book : ILibraryItem
+    public class Book : IBook, IBorrowableLibraryItem
     {
         public string LibraryId { get; set; }
         public string Title { get; set; }
