@@ -1,10 +1,11 @@
-﻿using System;
+﻿using LiskovPrinciple.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace LiskovPrinciple
 {
-    public class CEO : Employee
+    public class CEO : EmployeeBase, IManager
     {
         public override void CalculateSalary(int rank)
         {
@@ -13,10 +14,6 @@ namespace LiskovPrinciple
             Salary = baseAmount + (rank * 6);
         }
 
-        public override void AssignManager(Employee manager)
-        {
-            throw new NotImplementedException("CEO cannot be assigned a manager");
-        }
 
         public void GeneratePerformanceReview()
         {
