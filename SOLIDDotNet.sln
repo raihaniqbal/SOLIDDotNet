@@ -5,12 +5,14 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{48916118-B199-4F85-8F42-D05D9DB30885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovPrinciple", "LiskovPrinciple\LiskovPrinciple\LiskovPrinciple.csproj", "{B44B7752-58E4-4555-B377-0831C67F5EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovPrinciple", "LiskovPrinciple\LiskovPrinciple\LiskovPrinciple.csproj", "{B44B7752-58E4-4555-B377-0831C67F5EAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5370BCFE-660B-4380-B1DD-014C42510A2D}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{EB41EF81-8346-4237-921E-900D9C3B7953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,18 @@ Global
 		{B44B7752-58E4-4555-B377-0831C67F5EAE}.Release|x64.Build.0 = Release|Any CPU
 		{B44B7752-58E4-4555-B377-0831C67F5EAE}.Release|x86.ActiveCfg = Release|Any CPU
 		{B44B7752-58E4-4555-B377-0831C67F5EAE}.Release|x86.Build.0 = Release|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Debug|x64.Build.0 = Debug|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Debug|x86.Build.0 = Debug|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Release|x64.ActiveCfg = Release|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Release|x64.Build.0 = Release|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Release|x86.ActiveCfg = Release|Any CPU
+		{EB41EF81-8346-4237-921E-900D9C3B7953}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
